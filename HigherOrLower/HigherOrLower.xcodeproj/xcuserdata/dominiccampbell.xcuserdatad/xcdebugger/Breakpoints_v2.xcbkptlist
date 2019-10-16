@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A4F0086A-407F-434D-95D2-6627020FA9F7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50389AF4-40CB-4920-A124-4A678B0079EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HigherOrLowerTests/Networking/GameEndPointTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "testFetchFactory_moreThan1Card_success()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "284F333D-01C0-4158-8F28-87F641DE835C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HigherOrLower/UI/RootView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CE27DC6-7058-4250-A54B-56C6EB7579B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HigherOrLower/UI/RootView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "retry()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1210A58-BCA5-4D32-808E-AAA86593BEF2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HigherOrLower/UI/RootView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "makePublisher(x:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B1210A58-BCA5-4D32-808E-AAA86593BEF2 - 4d01179cea03ebae"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static HigherOrLower.RootView.(makePublisher in _FF9CD134557F8F004523819DB86E9F26)(x: Swift.Bool) -&gt; Combine.AnyPublisher&lt;HigherOrLower.RootView.Model, Swift.Never&gt;"
+                  moduleName = "HigherOrLower"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominiccampbell/Code/HigherOrLower/HigherOrLower/UI/RootView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "330">
+               </Location>
+               <Location
+                  uuid = "B1210A58-BCA5-4D32-808E-AAA86593BEF2 - 7690f4eea6b3834c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (HigherOrLower.GameFactory) -&gt; HigherOrLower.RootView.Model in static HigherOrLower.RootView.(makePublisher in _FF9CD134557F8F004523819DB86E9F26)(x: Swift.Bool) -&gt; Combine.AnyPublisher&lt;HigherOrLower.RootView.Model, Swift.Never&gt;"
+                  moduleName = "HigherOrLower"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominiccampbell/Code/HigherOrLower/HigherOrLower/UI/RootView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
