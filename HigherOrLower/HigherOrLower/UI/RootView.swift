@@ -10,7 +10,7 @@ import Combine
 
 struct RootView: View {
     
-    private static func makePublisher(x: Bool) -> AnyPublisher<Model, Never> {
+    private static func makePublisher() -> AnyPublisher<Model, Never> {
         return GameEndPoint.fetchFactory()
             .map { Model.complete($0) }
             .catch { _ in Just(Model.error) }
@@ -25,7 +25,7 @@ struct RootView: View {
     }
     
     @State var model = Model.fetch
-    @State var publisher = RootView.makePublisher(x: true)
+    @State var publisher = RootView.makePublisher()
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -47,7 +47,7 @@ struct RootView: View {
     }
     
     private func retry() {
-        self.publisher = RootView.makePublisher(x: false)
+        self.publisher = RootView.makePublisher()
     }
 }
 
